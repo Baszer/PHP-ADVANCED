@@ -34,9 +34,9 @@ De opdracht bestaat uit twee stappen. In de eerste stap (Opdracht 1) maak je al 
 
 ## Opdracht 1
 
-1. [ ] Maak twee bestanden aan, genaamd advanced-1.php en advanced-2.php
-2. [ ] Plaats in beide bestanden standaard HTMLpagina code. Dit omdat beide bestanden als pagina in de browser moeten worden getoond
-3. [ ] Maak in het bestand advanced-1.php een formulier aan waarin je de volgende input fields plaatst:
+1. [x] Maak twee bestanden aan, genaamd advanced-1.php en advanced-2.php
+2. [x] Plaats in beide bestanden standaard HTMLpagina code. Dit omdat beide bestanden als pagina in de browser moeten worden getoond
+3. [x] Maak in het bestand advanced-1.php een formulier aan waarin je de volgende input fields plaatst:
 a. tekstkleur 
 dit is een sellectbox die dmv een foreach loop wordt gemaakt van de volgende array:
 ~~~php
@@ -46,11 +46,11 @@ b. achtergrondkleur van de pagina (maak ook hier gebruik van de array $kleuren)
 c. tabel-border dikte
 d. padding (in pixels voor de tabelcel)
 4. een verstuurknop
-4. [ ] De ingevoerde data van het formulier worden verstuurd (gePOST) naar het bestand advanced-2.php
-5. [ ] In advanced-2.php maak je een associatieve array aan met gegevens over jezelf. Bijvoorbeeld: naam, leeftijd, muzieksmaak, woonplaats, sport, etc.
-6. [ ] Met een foreach loop doorloop je deze gemaakte array en maak je hiervan een tabel
-7. [ ] De stijl van deze tabel en inhoud wordt bepaald door de data die is verstuurd met het formulier in advanced-1.php
-8. [ ] Als dit helemaal werkt ga je verder met de tweede opdracht. Dit is een uitbreiding van deze opdracht
+4. [x] De ingevoerde data van het formulier worden verstuurd (gePOST) naar het bestand advanced-2.php
+5. [x] In advanced-2.php maak je een associatieve array aan met gegevens over jezelf. Bijvoorbeeld: naam, leeftijd, muzieksmaak, woonplaats, sport, etc.
+6. [x] Met een foreach loop doorloop je deze gemaakte array en maak je hiervan een tabel
+7. [x] De stijl van deze tabel en inhoud wordt bepaald door de data die is verstuurd met het formulier in advanced-1.php
+8. [x] Als dit helemaal werkt ga je verder met de tweede opdracht. Dit is een uitbreiding van deze opdracht
 
 ## Opdracht 2
 
