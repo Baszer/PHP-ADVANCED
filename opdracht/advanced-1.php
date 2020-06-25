@@ -8,10 +8,22 @@
 <body>
  
 <form action="advanced-2.php" method="post">
-    Tekstkleur: <input type="text" name="color"><br>
-    Achtergrondkleur: <input type="text" name="backgroundColor"><br>
-    Padding <input type="text" name="padding"><br>
-    Tabel-border: <input type="text" name="tabelBorder"><br>
+    Tekstkleur: <label for="color"></label><br>
+    <?php 
+        $kleuren = array("Red", "Blue", "Green", "Black", "Brown");
+        foreach($kleuren as $kleur){
+            echo "<input type='checkbox' name='color' value='".$kleur."'>".$kleur."<br>";
+        }
+    ?>
+    Achtergrondkleur: <label for="backgroundColor"><br>
+    <?php 
+        $kleuren = array("Red", "Blue", "Green", "Black", "Brown");
+        foreach($kleuren as $kleur){
+            echo "<input type='checkbox' name='backgroundColor' value='".$kleur."'>".$kleur."<br>";
+        }
+    ?>
+    Padding <input type="number" name="padding"><br>
+    Tabel-border: <input type="number" name="tabelBorder"><br>
     <input type="submit">
 </form>
 
