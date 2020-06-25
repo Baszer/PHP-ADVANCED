@@ -17,7 +17,6 @@
     ?>
     Achtergrondkleur: <label for="backgroundColor"><br>
     <?php 
-        $kleuren = array("Red", "Blue", "Green", "Black", "Brown");
         foreach($kleuren as $kleur){
             echo "<input type='checkbox' name='backgroundColor' value='".$kleur."'>".$kleur."<br>";
         }
